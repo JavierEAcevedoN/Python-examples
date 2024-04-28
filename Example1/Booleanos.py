@@ -17,26 +17,26 @@ print(booleano)
 # 5 es menor que 3, no
 booleano = 5<3
 print(booleano)
-# 5 es mayor que 3, no
+# 5 es mayor que 3, si
 booleano = 5>3
 print(booleano)
 # 5 es menor o igual que 3, no
 booleano = 5<=3
 print(booleano)
-# 5 es mayor o igual que 3, no
+# 5 es mayor o igual que 3, si
 booleano = 5>=3
 print(booleano)
 # 5 es igual a 3, no
 booleano = 5==3
 print(booleano)
-# 5 es diferente de 3, no
+# 5 es diferente de 3, si
 booleano = 5!=3
 print(booleano)
 
 # los booleanos se pueden usar en operadores logicos
-# aqui se puede ver utilizando AND
+# aqui se puede ver utilizando AND, en este caso da si
 print(True and True)
-# aqui se puede ver utilizando OR
+# aqui se puede ver utilizando OR, en este caso da si
 print(True or False)
-# aqui se puede ver utilizando NOT
+# aqui se puede ver utilizando NOT, en este caso da si
 print(not False)
