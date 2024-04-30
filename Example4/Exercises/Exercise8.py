@@ -5,14 +5,15 @@ l_contadas = []
 def buspalabra(palabra, letra):
     contador_l = 0
     for i in palabra:
-        if i == letra:
+        if i.lower() == letra:
             contador_l += 1
     return contador_l
 
 palabra = input("ingresa una palabra ")
 
 for i in abc:
-    l_contadas.append(buspalabra(palabra, i.lower()))
+    l_contadas.append(buspalabra(palabra, i))
 
-for i in len(l_contadas):
-    print(f"se encontraron {l_contadas[i]} de la letra {abc[i]} en la palabra ingresada")
+for i in range(len(l_contadas)):
+    if l_contadas[i] > 0:
+        print(f"se encontraron {l_contadas[i]} de la letra {abc[i]} en la palabra ingresada")
