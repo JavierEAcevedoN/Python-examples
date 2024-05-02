@@ -35,7 +35,7 @@ def media(lista):
     print(f"el promedio de la lista es de {div}")
 
 def letra():
-    letra = ["x","z"]
+    letra = ("x","z")
     palabra = input("ingresa una palabra ")
     for i in letra:
         for j in palabra:
@@ -44,7 +44,7 @@ def letra():
                 break
 
 while True:
-    choice = int(input("0 para salir, 1 para numeros primos, 2 para par o impar, 3 promedio de lista, 4 para buscar x y/o z en una palabra"))
+    choice = int(input("0 para salir, 1 para numeros primos, 2 para par o impar, 3 promedio de lista, 4 para buscar x y/o z en una palabra "))
     if choice == 0:
         break
     elif choice == 1:
