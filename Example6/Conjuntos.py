@@ -7,7 +7,7 @@ print(conjunto, type(conjunto))
 
 # tambien se crea asi
 
-conjunto = {3,5,7,2,1}
+conjunto = set([3,5,7,2,1])
 print(conjunto, type(conjunto))
 
 # aqui se peude ver los nueros sin repetir
