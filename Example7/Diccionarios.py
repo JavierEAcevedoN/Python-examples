@@ -34,7 +34,7 @@ print(persona["ID"])
 print(persona["pasatiempos"][1])
 print(persona["amigo"]["nombre"])
 
-# se puede suar for en los diccionarios
+# se puede usar for en los diccionarios
 for i in persona:
     print(i)
 
