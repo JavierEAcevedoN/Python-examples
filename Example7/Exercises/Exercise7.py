@@ -48,13 +48,13 @@ def mostrarcliente(cliente):
 def listartodosclientes(cliente):
     cliente = dict(cliente)
     for i in cliente:
-            print(f"NIF: {i} Nombre: {cliente[i]["Nombre"]}")
+            print(f"NIF: {i} Nombre: {cliente[i]['Nombre']}")
 
 def listarclientespreferentes(cliente):
     cliente = dict(cliente)
     for i in cliente:
         if cliente[i]["Preferente"] == True:
-            print(f"NIF: {i} Nombre: {cliente[i]["Nombre"]}")
+            print(f"NIF: {i} Nombre: {cliente[i]['Nombre']}")
     return cliente
 
 choice = 1
