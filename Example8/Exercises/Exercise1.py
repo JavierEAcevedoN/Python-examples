@@ -10,6 +10,15 @@ Empresas = {
 
 "Empresa 5": [{"departamento": "Recursos Humanos", "empleados": 20}, {"departamento": "Contabilidad", "empleados": 35}, {"departamento": "Ventas", "empleados": 58}, {"departamento": "Operaciones", "empleados": 97}],
 
+"Empresa 6": [{"departamento": "Recursos Humanos", "empleados": 5}, {"departamento": "Contabilidad", "empleados": 4}, {"departamento": "Ventas", "empleados": 10}, {"departamento": "Operaciones", "empleados": 25}],
+
+"Empresa 7": [{"departamento": "Recursos Humanos", "empleados": 10}, {"departamento": "Contabilidad", "empleados": 15}, {"departamento": "Ventas", "empleados": 25}, {"departamento": "Operaciones", "empleados": 41}],
+
+"Empresa 8": [{"departamento": "Recursos Humanos", "empleados": 8}, {"departamento": "Contabilidad", "empleados": 20}, {"departamento": "Ventas", "empleados": 32}, {"departamento": "Operaciones", "empleados": 56}],
+
+"Empresa 9": [{"departamento": "Recursos Humanos", "empleados": 5}, {"departamento": "Contabilidad", "empleados": 8}, {"departamento": "Ventas", "empleados": 15}, {"departamento": "Operaciones", "empleados": 29}],
+
+"Empresa 10": [{"departamento": "Recursos Humanos", "empleados": 20}, {"departamento": "Contabilidad", "empleados": 35}, {"departamento": "Ventas", "empleados": 58}, {"departamento": "Operaciones", "empleados": 97}],
 }
 
 def mostarempresas(Empresas):
@@ -41,19 +50,39 @@ def doblerespectoventas(Empresas):
 
 
 def reorganizar(Empresas):
-    reorganizado = {}
+    lista1 = []
+    lista2 = []
+    lista3 = []
+    lista4 = []
     for i in Empresas:
-        print(Empresas[i])
-    print(reorganizado)
-
-# terminar
-""" reorganizado.update(
-    {
-        "Departamentos": {
-            "Recursos Humanos": [{"empresas":"Empresa 1", "empleados":"5"},{"empresas":"Empresa 2", "empleados":"10"},...]
-        }
-    }
-) """
+        for j in Empresas[i]:
+            if j["departamento"] == "Recursos Humanos":
+                nombre1 = j["departamento"]
+                empleados1 = j["empleados"]
+            if j["departamento"] == "Contabilidad":
+                nombre2 = j["departamento"]
+                empleados2 = j["empleados"]
+            if j["departamento"] == "Ventas":
+                nombre3 = j["departamento"]
+                empleados3 = j["empleados"]
+            if j["departamento"] == "Operaciones":
+                nombre4 = j["departamento"]
+                empleados4 = j["empleados"]
+        lista1.append({"empresas": i, "empleados":empleados1})
+        lista2.append({"empresas": i, "empleados":empleados2})
+        lista3.append({"empresas": i, "empleados":empleados3})
+        lista4.append({"empresas": i, "empleados":empleados4})
+        Departamentos = {
+                nombre1: lista1,
+                nombre2: lista2,
+                nombre3: lista3,
+                nombre4: lista4
+            }
+    print(Departamentos)
+    for i in Departamentos:
+        print(i)
+        for j in Departamentos[i]:
+                print(j)
 
 while True:
     choice = int(input("""

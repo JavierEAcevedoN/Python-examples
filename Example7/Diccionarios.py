@@ -57,7 +57,7 @@ print(persona)
 diccionario["color1"] = "amarillo"
 print(diccionario.keys())
 
-# con values su pueden obtener los indices de todos los elementos del diccionario
+# con values su pueden obtener los valores de cada indice los elementos del diccionario
 
 print(diccionario.values())
 
