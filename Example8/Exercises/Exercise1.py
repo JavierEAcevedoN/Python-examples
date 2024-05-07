@@ -1,3 +1,6 @@
+""" Dada la siguiente estructura de datos:
+
+
 Empresas = {
 
 "Empresa 1": [{"departamento": "Recursos Humanos", "empleados": 5}, {"departamento": "Contabilidad", "empleados": 4}, {"departamento": "Ventas", "empleados": 10}, {"departamento": "Operaciones", "empleados": 25}],
@@ -10,15 +13,38 @@ Empresas = {
 
 "Empresa 5": [{"departamento": "Recursos Humanos", "empleados": 20}, {"departamento": "Contabilidad", "empleados": 35}, {"departamento": "Ventas", "empleados": 58}, {"departamento": "Operaciones", "empleados": 97}],
 
-"Empresa 6": [{"departamento": "Recursos Humanos", "empleados": 5}, {"departamento": "Contabilidad", "empleados": 4}, {"departamento": "Ventas", "empleados": 10}, {"departamento": "Operaciones", "empleados": 25}],
+}
+Crea un menú que se repita hasta que el usuario ingrese la opción de salida (a tu elección) y utilice una función para cada opción válida. Las funcionalidades son:
 
-"Empresa 7": [{"departamento": "Recursos Humanos", "empleados": 10}, {"departamento": "Contabilidad", "empleados": 15}, {"departamento": "Ventas", "empleados": 25}, {"departamento": "Operaciones", "empleados": 41}],
+1. Mostrar cuántas empresas tienen más de 10 empleados en Recursos Humanos
 
-"Empresa 8": [{"departamento": "Recursos Humanos", "empleados": 8}, {"departamento": "Contabilidad", "empleados": 20}, {"departamento": "Ventas", "empleados": 32}, {"departamento": "Operaciones", "empleados": 56}],
+2. Mostrar el promedio de empleados por departamento (teniendo en cuenta todas las empresas para cada calculo)
 
-"Empresa 9": [{"departamento": "Recursos Humanos", "empleados": 5}, {"departamento": "Contabilidad", "empleados": 8}, {"departamento": "Ventas", "empleados": 15}, {"departamento": "Operaciones", "empleados": 29}],
+3. Mostrar cuántas empresas tienen el doble o más del doble de empleados en operaciones con respecto a ventas
 
-"Empresa 10": [{"departamento": "Recursos Humanos", "empleados": 20}, {"departamento": "Contabilidad", "empleados": 35}, {"departamento": "Ventas", "empleados": 58}, {"departamento": "Operaciones", "empleados": 97}],
+4. Mostrar una nueva estructura de datos reorganizada donde las llaves del diccionario principal no sea empresas sino por departamento. """
+
+Empresas = {
+
+"Empresa 1": [{"departamento": "Recursos Humanos", "empleados": 5}, {"departamento": "Contabilidad", "empleados": 4}, {"departamento": "Ventas", "empleados": 10}, {"departamento": "Operaciones", "empleados": 25}],
+
+"Empresa 2": [{"departamento": "Recursos Humanos", "empleados": 10}, {"departamento": "Contabilidad", "empleados": 15}, {"departamento": "Ventas", "empleados": 25}, {"departamento": "Operaciones", "empleados": 41}],
+
+"Empresa 3": [{"departamento": "Recursos Humanos", "empleados": 8}, {"departamento": "Contabilidad", "empleados": 20}, {"departamento": "Ventas", "empleados": 32}, {"departamento": "Operaciones", "empleados": 56}],
+
+"Empresa 4": [{"departamento": "Recursos Humanos", "empleados": 5}, {"departamento": "Contabilidad", "empleados": 8}, {"departamento": "Ventas", "empleados": 15}, {"departamento": "Operaciones", "empleados": 29}],
+
+"Empresa 5": [{"departamento": "Recursos Humanos", "empleados": 20}, {"departamento": "Contabilidad", "empleados": 35}, {"departamento": "Ventas", "empleados": 58}, {"departamento": "Operaciones", "empleados": 97}],
+
+"Empresa 6": [{"departamento": "Recursos Humanos", "empleados": 30}, {"departamento": "Contabilidad", "empleados": 9}, {"departamento": "Ventas", "empleados": 14}, {"departamento": "Operaciones", "empleados": 25}],
+
+"Empresa 7": [{"departamento": "Recursos Humanos", "empleados": 13}, {"departamento": "Contabilidad", "empleados": 17}, {"departamento": "Ventas", "empleados": 45}, {"departamento": "Operaciones", "empleados": 41}],
+
+"Empresa 8": [{"departamento": "Recursos Humanos", "empleados": 9}, {"departamento": "Contabilidad", "empleados": 23}, {"departamento": "Ventas", "empleados": 32}, {"departamento": "Operaciones", "empleados": 56}],
+
+"Empresa 9": [{"departamento": "Recursos Humanos", "empleados": 14}, {"departamento": "Contabilidad", "empleados": 19}, {"departamento": "Ventas", "empleados": 16}, {"departamento": "Operaciones", "empleados": 29}],
+
+"Empresa 10": [{"departamento": "Recursos Humanos", "empleados": 34}, {"departamento": "Contabilidad", "empleados": 40}, {"departamento": "Ventas", "empleados": 28}, {"departamento": "Operaciones", "empleados": 97}],
 }
 
 def mostarempresas(Empresas):
