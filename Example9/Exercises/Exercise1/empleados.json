@@ -1,0 +1,51 @@
+[
+    {
+        "Nombre": "javier",
+        "Direccion": "casa",
+        "Telefono": "30121",
+        "Correo": "jean@mail.com",
+        "Despedido": false
+    },
+    {
+        "Nombre": "mariana",
+        "Direccion": "casa",
+        "Telefono": "57355",
+        "Correo": "mlan@mail.com",
+        "Despedido": false
+    },
+    {
+        "Nombre": "ignacio",
+        "Direccion": "casa",
+        "Telefono": "211334",
+        "Correo": "ipn@mail.com",
+        "Despedido": false
+    },
+    {
+        "Nombre": "elkin",
+        "Direccion": "casa",
+        "Telefono": "34675",
+        "Correo": "efcg@mail.com",
+        "Despedido": false
+    },
+    {
+        "Nombre": "jose",
+        "Direccion": "casa",
+        "Telefono": "13432",
+        "Correo": "jose@mail.com",
+        "Despedido": false
+    },
+    {
+        "Nombre": "angel",
+        "Direccion": "casa",
+        "Telefono": "2424324",
+        "Correo": "assc@mail.com",
+        "Despedido": false
+    },
+    {
+        "Nombre": "carlos",
+        "Direccion": "casa",
+        "Telefono": "5555",
+        "Correo": "nocarlos@mail.com",
+        "Despedido": true
+    }
+]
