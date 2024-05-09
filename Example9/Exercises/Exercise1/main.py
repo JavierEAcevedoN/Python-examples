@@ -14,9 +14,13 @@ Para que el aplicativo funcione correctamente se debe tener en cuenta:
     Cada entrada y salida de empleados se debe registrar en un archivo txt o csv añadiendo línea a línea cada registro y no se debe modificar ni reescribir. Si el registro de entrada o salida aplica para alguna advertencia se debe marcar en el archivo también. """
 
 import json
+import csv
+import datetime
 
-file = open("empleados.json")
-empleados = json.load(file)
+file_json = open("empleados.json")
+empleados = json.load(file_json)
+file_csv = open("registroHora.csv")
+registro = csv.DictReader(file_csv)
 
 def registrarEmpleados(Empleado):
     Empleado = list(Empleado)
@@ -45,9 +49,9 @@ def registrarEmpleados(Empleado):
     )
     
     new_empleado = json.dumps(Empleado, indent=4)
-    file = open("empleados.json","w")
-    file.write(new_empleado)
-    file.close()
+    file_json = open("empleados.json","w")
+    file_json.write(new_empleado)
+    file_json.close()
 
 def listartodosempleados(Empleado):
     Empleado = list(Empleado)
@@ -80,9 +84,9 @@ def modificarEmpleados(Empleado):
     )
 
     mod_empleado = json.dumps(Empleado, indent=4)
-    file = open("empleados.json","w")
-    file.write(mod_empleado)
-    file.close()
+    file_json = open("empleados.json","w")
+    file_json.write(mod_empleado)
+    file_json.close()
 
 def despedirEmpleados(Empleado):
     Empleado = list(Empleado)
@@ -99,20 +103,47 @@ def despedirEmpleados(Empleado):
             }
         )
         des_empleado = json.dumps(Empleado, indent=4)
-        file = open("empleados.json","w")
-        file.write(des_empleado)
-        file.close()
+        file_json = open("empleados.json","w")
+        file_json.write(des_empleado)
+        file_json.close()
 
-choice = 1
+
+# terminar
+def HoraEmpleado(Empleado,Registro):
+    nombre = input("ingresa tu nombre ")
+    Empleado = list(Empleado)
+    Registro = list(Registro)
+    esta = False
+    hora = datetime.datetime.now()
+    hora_am = f"{hora.hour}:{hora.minute}"
+    hora_pm = f"{(hora.hour)-1}:{hora.minute}"
+    for i in Empleado:
+        if i["Nombre"] == nombre:
+            esta = True
+    if esta:
+        Registro.append(f"{nombre}, {hora_am} am, {hora_pm} pm")
+        file_csv = open("registroHora.csv","w")
+        columnas = ["Empleado","Hora_entrada","Hora_Salida"]
+        escritor = csv.DictWriter(file_csv,fieldnames=columnas)
+        escritor.writeheader()
+        for r in Registro:
+            print(r)
+        file_csv.close()
+        print("hora registrada con exito")
+        return
+    else:
+        print("ese empleado no se encuentra registrado")
 
 while True:
+    choice = -1
     choice = int(input("""
 ingresa la opcion: 
 (1) Registrar Empleados.
 (2) Listar Empleados
 (3) Modificar Empleados
 (4) Despedir empleados
-(5) Terminar. """))
+(5) Registrar hora empleados
+(6) Terminar. """))
     if choice == 1:
         registrarEmpleados(empleados)
     elif choice == 2:
@@ -122,5 +153,7 @@ ingresa la opcion:
     elif choice == 4:
         despedirEmpleados(empleados)
     elif choice == 5:
+        HoraEmpleado(empleados,registro)
+    elif choice == 6:
         print("terminando proceso")
         break
