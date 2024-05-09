@@ -107,30 +107,36 @@ def despedirEmpleados(Empleado):
         file_json.write(des_empleado)
         file_json.close()
 
-
-# terminar
 def HoraEmpleado(Empleado,Registro):
     nombre = input("ingresa tu nombre ")
     Empleado = list(Empleado)
-    Registro = list(Registro)
+    registro_empleados = list(Registro)
     esta = False
     hora = datetime.datetime.now()
-    hora_am = f"{hora.hour}:{hora.minute}"
-    hora_pm = f"{(hora.hour)-1}:{hora.minute}"
+    if hora.hour > 13:
+        hora_am = f"{(hora.hour)-12}:{hora.minute} am"
+        hora_pm = f"{(hora.hour)-14}:{hora.minute} pm"
+    else:
+        hora_am = f"{hora.hour}:{hora.minute} am"
+        hora_pm = f"{(hora.hour)-2}:{hora.minute} pm"
     for i in Empleado:
         if i["Nombre"] == nombre:
             esta = True
     if esta:
-        Registro.append(f"{nombre}, {hora_am} am, {hora_pm} pm")
+        registro_empleados.append(
+            {
+            'Empleado': nombre, 'Hora_entrada': hora_am, 'Hora_Salida': hora_pm
+            }
+        )
         file_csv = open("registroHora.csv","w")
         columnas = ["Empleado","Hora_entrada","Hora_Salida"]
         escritor = csv.DictWriter(file_csv,fieldnames=columnas)
         escritor.writeheader()
-        for r in Registro:
-            print(r)
+        for r in registro_empleados:
+            escritor.writerow(r)
         file_csv.close()
         print("hora registrada con exito")
-        return
+        return registro_empleados
     else:
         print("ese empleado no se encuentra registrado")
 
@@ -153,7 +159,7 @@ ingresa la opcion:
     elif choice == 4:
         despedirEmpleados(empleados)
     elif choice == 5:
-        HoraEmpleado(empleados,registro)
+        registro = HoraEmpleado(empleados,registro)
     elif choice == 6:
         print("terminando proceso")
         break
