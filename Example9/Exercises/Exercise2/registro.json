@@ -1,0 +1,20 @@
+[
+    {
+        "vehiculo": "Carro",
+        "placa": "A452",
+        "salio": true,
+        "cobrado": 0
+    },
+    {
+        "vehiculo": "Moto",
+        "placa": "A4521",
+        "salio": true,
+        "cobrado": 60000
+    },
+    {
+        "vehiculo": "Carro2",
+        "placa": "swd43",
+        "salio": false,
+        "cobrado": 0
+    }
+]
