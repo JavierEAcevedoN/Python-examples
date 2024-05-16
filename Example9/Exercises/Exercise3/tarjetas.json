@@ -1,0 +1,30 @@
+[
+    {
+        "tipo": "visa",
+        "numero": 30239,
+        "vcc": "32/12",
+        "codigo": "121",
+        "id_clinte": "angel"
+    },
+    {
+        "tipo": "mastercard",
+        "numero": 43421,
+        "vcc": "32/43",
+        "codigo": "321",
+        "id_clinte": "javier"
+    },
+    {
+        "tipo": "american express",
+        "numero": 4342,
+        "vcc": "23/53",
+        "codigo": "421",
+        "id_clinte": "javier"
+    },
+    {
+        "tipo": "mastercrad",
+        "numero": 3244,
+        "vcc": "12/32",
+        "codigo": 312,
+        "id_clinte": "elkin"
+    }
+]
