@@ -1,0 +1,68 @@
+[
+    {
+        "nombre": "Javier",
+        "cc": 392918328,
+        "contacto": 3012123321,
+        "sexo": "Hombre",
+        "tarjetas": [
+            {
+                "tipo": "Visa",
+                "numero": 30239,
+                "vcc": "32/12",
+                "codigo": "121"
+            }
+        ]
+    },
+    {
+        "nombre": "Hugo",
+        "cc": 3213123,
+        "contacto": 323123,
+        "sexo": "Hombre",
+        "tarjetas": [
+            {
+                "tipo": "Visa",
+                "numero": 332432,
+                "vcc": "32/12",
+                "codigo": "121"
+            },
+            {
+                "tipo": "Mastercard",
+                "numero": 12343223,
+                "vcc": "432/23",
+                "codigo": 321
+            },
+            {
+                "tipo": "American express",
+                "numero": 432342,
+                "vcc": "231/12",
+                "codigo": 312
+            },
+            {
+                "tipo": "Visa",
+                "numero": 314312,
+                "vcc": "12/32",
+                "codigo": 412
+            }
+        ]
+    },
+    {
+        "nombre": "Leonardo",
+        "cc": 214324,
+        "contacto": 53435435,
+        "sexo": "Hombre",
+        "tarjetas": [
+            {
+                "tipo": "Visa",
+                "numero": 31311,
+                "vcc": "3212/3213",
+                "codigo": 212
+            },
+            {
+                "tipo": "Mastercard",
+                "numero": 3132,
+                "vcc": "23/43",
+                "codigo": 313
+            }
+        ]
+    }
+]
