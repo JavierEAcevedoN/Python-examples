@@ -1,0 +1,83 @@
+{
+    "Atletismo": [
+        {
+            "nombre": "Carlos",
+            "documento": "147852369",
+            "edad": 23
+        },
+        {
+            "nombre": "Angel",
+            "documento": 214324,
+            "edad": 213
+        },
+        {
+            "nombre": "Hugo",
+            "documento": 312313,
+            "edad": 321
+        },
+        {
+            "nombre": "Javier",
+            "documento": 424234,
+            "edad": 23
+        },
+        {
+            "nombre": "Carla",
+            "documento": "3213213132",
+            "edad": 43
+        }
+    ],
+    "Ciclismo": [
+        {
+            "nombre": "Carla",
+            "documento": "3213213132",
+            "edad": 43
+        },
+        {
+            "nombre": "Javier",
+            "documento": 424234,
+            "edad": 23
+        },
+        {
+            "nombre": "Angel",
+            "documento": 214324,
+            "edad": 213
+        },
+        {
+            "nombre": "Hugo",
+            "documento": 312313,
+            "edad": 321
+        },
+        {
+            "nombre": "Carlos",
+            "documento": "147852369",
+            "edad": 23
+        }
+    ],
+    "Patinaje": [
+        {
+            "nombre": "Angel",
+            "documento": "3213133",
+            "edad": 32
+        },
+        {
+            "nombre": "Hugo",
+            "documento": 312313,
+            "edad": 321
+        },
+        {
+            "nombre": "Carlos",
+            "documento": "147852369",
+            "edad": 23
+        },
+        {
+            "nombre": "Carla",
+            "documento": "3213213132",
+            "edad": 43
+        },
+        {
+            "nombre": "Javier",
+            "documento": 424234,
+            "edad": 23
+        }
+    ]
+}
