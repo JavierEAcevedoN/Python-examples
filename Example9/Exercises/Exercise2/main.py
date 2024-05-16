@@ -13,7 +13,7 @@ while True:
 ingresa la opcion: 
 (1) Registrar entrada de vehiculo.
 (2) Registar salida vehiculo.
-(3) Mostrar historial de carros.
+(3) Mostrar historial de vehiculos.
 (4) Mostrar la cantidad de dinero recaudado.
 (5) Mostrar los vehiculos parqueados en el momento.
 (0) Terminar. """))

@@ -2,19 +2,25 @@
     {
         "vehiculo": "Carro",
         "placa": "A452",
+        "fecha_entrada": "2024-05-16 01:52:18",
         "salio": true,
+        "fecha_salida": "2024-05-16 01:53:39",
         "cobrado": 0
     },
     {
         "vehiculo": "Moto",
-        "placa": "A4521",
+        "placa": "mt",
+        "fecha_entrada": "2024-05-16 01:55:04",
         "salio": true,
-        "cobrado": 60000
+        "fecha_salida": "2024-05-16 01:56:44",
+        "cobrado": 144000
     },
     {
-        "vehiculo": "Carro2",
-        "placa": "swd43",
-        "salio": false,
-        "cobrado": 0
+        "vehiculo": "avion",
+        "placa": "av",
+        "fecha_entrada": "2024-05-16 01:55:18",
+        "salio": true,
+        "fecha_salida": "2024-05-16 01:57:57",
+        "cobrado": 1200000
     }
 ]
