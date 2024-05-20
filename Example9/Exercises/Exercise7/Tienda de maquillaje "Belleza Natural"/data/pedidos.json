@@ -1,0 +1,382 @@
+{
+    "base": [
+        {
+            "cc_cliente": 1096802787,
+            "pedido": [
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base en Polvo Mate",
+                    "Precio": "30000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                }
+            ],
+            "pago": false
+        },
+        {
+            "cc_cliente": 21212,
+            "pedido": [
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base en Polvo Mate",
+                    "Precio": "30000"
+                }
+            ],
+            "pago": false
+        },
+        {
+            "cc_cliente": 412421,
+            "pedido": [
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "base",
+                    "Producto": "Base de Maquillaje",
+                    "Nombre": "Base Liquida Acabado Natural",
+                    "Precio": "28000"
+                }
+            ],
+            "pago": false
+        }
+    ],
+    "labiales": [
+        {
+            "cc_cliente": 1096802787,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "brillo de Labios Transparente",
+                    "Precio": "12000"
+                }
+            ],
+            "pago": false
+        },
+        {
+            "cc_cliente": 109687451,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "brillo de Labios Transparente",
+                    "Precio": "12000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": false
+        },
+        {
+            "cc_cliente": 125478693,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "brillo de Labios Transparente",
+                    "Precio": "12000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "brillo de Labios Transparente",
+                    "Precio": "12000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": false
+        },
+        {
+            "cc_cliente": 63727212,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "brillo de Labios Transparente",
+                    "Precio": "12000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": false
+        },
+        {
+            "cc_cliente": 121321,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": false
+        }
+    ],
+    "sombras": [
+        {
+            "cc_cliente": 1096802787,
+            "pedido": [
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Colores Brillantes",
+                    "Precio": "22000"
+                },
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Colores Brillantes",
+                    "Precio": "22000"
+                },
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Ojos Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": false
+        }
+    ],
+    "mascaras": [
+        {
+            "cc_cliente": 1096802787,
+            "pedido": [
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Waterproof",
+                    "Precio": "28000"
+                }
+            ],
+            "pago": false
+        }
+    ]
+}
