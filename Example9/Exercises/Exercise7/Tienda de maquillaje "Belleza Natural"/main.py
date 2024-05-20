@@ -4,7 +4,6 @@ from modules.consultas import *
 
 pedidos = leer_json("data/pedidos.json")
 catalogo = leer_csv("data/catalogo.csv")
-pagos = leer_csv("data/pagos.csv")
 
 # menu general
 while True:
@@ -19,10 +18,12 @@ ingresa una de las siguientes opciones
     except Exception:
         print("ese valor no es valido")
     if choice == 1:
-        catalogo,pedidos = pedido(catalogo,pedidos)
+        catalogo,pedidos,pagos = pedido(catalogo,pedidos)
     elif choice == 2:
         pedidos = consultas(pedidos)
+        pagos = []
     elif choice == 0:
         print("terminando proceso")
         break
     guardar_json("data/pedidos.json",pedidos)
+    guardar_csv("data/pagos.csv",pagos)

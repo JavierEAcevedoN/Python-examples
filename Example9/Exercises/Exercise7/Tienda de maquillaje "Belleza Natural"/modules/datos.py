@@ -10,7 +10,6 @@ def guardar_json(ruta,archivo):
     escribir = json.dumps(archivo,indent=4)
     file = open(ruta,"w")
     file.write(escribir)
-    return escribir
 
 def leer_csv(ruta):
     file = open(ruta,"r")
@@ -19,7 +18,6 @@ def leer_csv(ruta):
     return leer
 
 def guardar_csv(ruta,archivo):
-    file = open(ruta,"r")
+    file = open(ruta,"a")
     escribir = csv.writer(file)
     escribir.writerows(archivo)
-    return escribir

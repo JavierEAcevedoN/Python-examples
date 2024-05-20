@@ -1,5 +1,9 @@
 # menu pedidos
+from datetime import datetime
 def pedido(catalogo,pedidos):
+    catalogo = list(catalogo)
+    pedidos = dict(pedidos)
+    pagos = []
     while True:
         choice = -1
         try:
@@ -13,19 +17,20 @@ ingresa una de las siguientes opciones
         except Exception:
             print("ese valor no es valido")
         if choice == 1:
-            pedidos = registrar_pedido(catalogo,pedidos)
+            pedidos,pagos = registrar_pedido(catalogo,pedidos,pagos)
         elif choice == 2:
-            pedidos = modificar_pedido(catalogo,pedidos)
+            pedidos,pagos = modificar_pedido(catalogo,pedidos,pagos)
         elif choice == 3:
             pedidos = eliminar_pedido(pedidos)
         elif choice == 0:
             print("terminando proceso")
-            return catalogo,pedidos
+            return catalogo,pedidos,pagos
 
 # registar pedido
-def registrar_pedido(catalogo,pedidos):
+def registrar_pedido(catalogo,pedidos,pagos):
     catalogo = list(catalogo)
     pedidos = dict(pedidos)
+    pagos = list(pagos)
     cc_cliente = 0
     categoria = 0
     try:
@@ -33,7 +38,7 @@ def registrar_pedido(catalogo,pedidos):
         categoria = int((input("ingresa la categoria del producto (1 para base, 2 para labiales, 3 para sombras, 4 para mascaras) ")))
     except Exception:
         print("ese valor no es valido")
-        return pedidos
+        return pedidos,pagos
     if categoria == 1:
         categoria = "base"
     elif categoria == 2:
@@ -44,11 +49,11 @@ def registrar_pedido(catalogo,pedidos):
         categoria = "mascaras"
     else:
         print("ese valor no es valido ")
-        return pedidos
+        return pedidos,pagos
     for i in pedidos[categoria]:
         if cc_cliente == i["cc_cliente"]:
             print("ya hiciste un pedido")
-            return pedidos
+            return pedidos,pagos
     pedido = []
     while True:
         lista = []
@@ -70,17 +75,50 @@ def registrar_pedido(catalogo,pedidos):
         terminar = input("quieres terminar con el pedido? (si o no) ").lower()
         if terminar == "si":
             break
-    pedidos[categoria].append(
-        {
-            "cc_cliente":cc_cliente,
-            "pedido":pedido,
-            "pago":False
-        }
-    )
-    return pedidos
+    print("")
+    print("estos son tolos los productos que acabas de pedir:")
+    for i in pedido:
+        print("")
+        for j in i:
+            print(f"\t{j} : {i[j]}")
+    aceptar = input("quieres guardar el pedido? (si o no) ").lower()
+    if aceptar == "si":
+        print("pedido terminado")
+        aceptar = input("vas a pagar de una ves? (si o no) ").lower()
+        if aceptar == "si":
+            pedidos[categoria].append(
+                {
+                    "cc_cliente":cc_cliente,
+                    "pedido":pedido,
+                    "pago":True
+                }
+            )
+            total = 0
+            for i in pedido:
+                total += int(i["Precio"])
+            pagos.append(
+                [str(datetime.now().replace(microsecond=0)),total,cc_cliente]
+            )
+            print(pagos)
+            return pedidos,pagos
+        else:
+            pedidos[categoria].append(
+                {
+                    "cc_cliente":cc_cliente,
+                    "pedido":pedido,
+                    "pago":False
+                }
+            )
+            return pedidos,pagos
+    else:
+        print("pedido cancelado")
+        return pedidos,pagos
 
 # modificar pedido
-def modificar_pedido(catalogo,pedidos):
+# verificar si ya se pago para continuar
+# agragar pagar de una vez
+# agregarlo a los pagos
+def modificar_pedido(catalogo,pedidos,pagos):
     pedidos = dict(pedidos)
     cc_cliente = 0
     categoria = 0
@@ -89,7 +127,7 @@ def modificar_pedido(catalogo,pedidos):
         categoria = int((input("ingresa la categoria del producto (1 para base, 2 para labiales, 3 para sombras, 4 para mascaras) ")))
     except Exception:
         print("ese valor no es valido")
-        return pedidos
+        return pedidos,pagos
     if categoria == 1:
         categoria = "base"
     elif categoria == 2:
@@ -100,7 +138,7 @@ def modificar_pedido(catalogo,pedidos):
         categoria = "mascaras"
     else:
         print("ese valor no es valido ")
-        return pedidos
+        return pedidos,pagos
     for i in pedidos[categoria]:
         if cc_cliente == i["cc_cliente"]:
             pedido = []
@@ -124,12 +162,19 @@ def modificar_pedido(catalogo,pedidos):
                 terminar = input("quieres terminar con el pedido? (si o no) ").lower()
                 if terminar == "si":
                     break
+            print("")
+            print("estos son tolos los productos que acabas de pedir:")
+            for j in pedido:
+                print("")
+                for k in j:
+                    print(k,":",j[k])
             i["pedido"] = pedido
-            return pedidos
+            return pedidos,pagos
     print("no se encontro a ese usuario")
-    return pedidos
+    return pedidos,pagos
 
 # eliminar pedido
+# verificar si ya se pago para continuar
 def eliminar_pedido(pedidos):
     pedidos = dict(pedidos)
     cc_cliente = 0
@@ -157,3 +202,5 @@ def eliminar_pedido(pedidos):
             return pedidos
     print("no se encontro a ese usuario")
     return pedidos
+
+# pagar pedido
