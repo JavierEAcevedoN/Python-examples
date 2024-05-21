@@ -8,6 +8,7 @@ catalogo = leer_csv("data/catalogo.csv")
 # menu general
 while True:
     choice = -1
+    pagos = []
     try:
         choice = int(input("""
 menu general
@@ -21,7 +22,6 @@ ingresa una de las siguientes opciones
         catalogo,pedidos,pagos = pedido(catalogo,pedidos)
     elif choice == 2:
         pedidos = consultas(pedidos)
-        pagos = []
     elif choice == 0:
         print("terminando proceso")
         break

@@ -57,6 +57,4 @@ def consultar_pedido_especifico(pedidos):
                 print("")
                 for k in j:
                     print(k,":",j[k])
-            return pedidos
-    print("no se encontro a ese usuario")
     return pedidos

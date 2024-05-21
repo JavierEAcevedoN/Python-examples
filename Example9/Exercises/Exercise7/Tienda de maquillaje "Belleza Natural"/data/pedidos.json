@@ -679,6 +679,192 @@
                 }
             ],
             "pago": true
+        },
+        {
+            "cc_cliente": 434324353,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": true
+        },
+        {
+            "cc_cliente": 42424,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "brillo de Labios Transparente",
+                    "Precio": "12000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": true
+        },
+        {
+            "cc_cliente": 3,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": true
+        },
+        {
+            "cc_cliente": 15427893,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "brillo de Labios Transparente",
+                    "Precio": "12000"
+                },
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": true
+        },
+        {
+            "cc_cliente": 1548784,
+            "pedido": [
+                {
+                    "categoria": "labiales",
+                    "Producto": "Labial",
+                    "Nombre": "Labial Liquido Mate",
+                    "Precio": "18000"
+                }
+            ],
+            "pago": true
         }
     ],
     "sombras": [
@@ -759,6 +945,54 @@
                 }
             ],
             "pago": true
+        },
+        {
+            "cc_cliente": 4,
+            "pedido": [
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Colores Brillantes",
+                    "Precio": "22000"
+                },
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Colores Brillantes",
+                    "Precio": "22000"
+                },
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Colores Brillantes",
+                    "Precio": "22000"
+                },
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Colores Brillantes",
+                    "Precio": "22000"
+                },
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Colores Brillantes",
+                    "Precio": "22000"
+                },
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Colores Brillantes",
+                    "Precio": "22000"
+                },
+                {
+                    "categoria": "sombras",
+                    "Producto": "Sombra de Ojos",
+                    "Nombre": "Sombras de Colores Brillantes",
+                    "Precio": "22000"
+                }
+            ],
+            "pago": true
         }
     ],
     "mascaras": [
@@ -784,7 +1018,7 @@
                     "Precio": "28000"
                 }
             ],
-            "pago": false
+            "pago": true
         },
         {
             "cc_cliente": 3254325,
@@ -876,60 +1110,6 @@
                 {
                     "categoria": "mascaras",
                     "Producto": "Mascara de Pestanas",
-                    "Nombre": "Mascara de Pestanas Alargadora",
-                    "Precio": "25000"
-                },
-                {
-                    "categoria": "mascaras",
-                    "Producto": "Mascara de Pestanas",
-                    "Nombre": "Mascara de Pestanas Alargadora",
-                    "Precio": "25000"
-                },
-                {
-                    "categoria": "mascaras",
-                    "Producto": "Mascara de Pestanas",
-                    "Nombre": "Mascara de Pestanas Alargadora",
-                    "Precio": "25000"
-                },
-                {
-                    "categoria": "mascaras",
-                    "Producto": "Mascara de Pestanas",
-                    "Nombre": "Mascara de Pestanas Alargadora",
-                    "Precio": "25000"
-                },
-                {
-                    "categoria": "mascaras",
-                    "Producto": "Mascara de Pestanas",
-                    "Nombre": "Mascara de Pestanas Alargadora",
-                    "Precio": "25000"
-                },
-                {
-                    "categoria": "mascaras",
-                    "Producto": "Mascara de Pestanas",
-                    "Nombre": "Mascara de Pestanas Alargadora",
-                    "Precio": "25000"
-                },
-                {
-                    "categoria": "mascaras",
-                    "Producto": "Mascara de Pestanas",
-                    "Nombre": "Mascara de Pestanas Alargadora",
-                    "Precio": "25000"
-                },
-                {
-                    "categoria": "mascaras",
-                    "Producto": "Mascara de Pestanas",
-                    "Nombre": "Mascara de Pestanas Waterproof",
-                    "Precio": "28000"
-                },
-                {
-                    "categoria": "mascaras",
-                    "Producto": "Mascara de Pestanas",
-                    "Nombre": "Mascara de Pestanas Waterproof",
-                    "Precio": "28000"
-                },
-                {
-                    "categoria": "mascaras",
-                    "Producto": "Mascara de Pestanas",
                     "Nombre": "Mascara de Pestanas Waterproof",
                     "Precio": "28000"
                 },
@@ -946,7 +1126,7 @@
                     "Precio": "25000"
                 }
             ],
-            "pago": false
+            "pago": true
         },
         {
             "cc_cliente": 3535,
@@ -1275,6 +1455,90 @@
                     "Nombre": "Mascara de Pestanas Alargadora",
                     "Precio": "25000"
                 },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                }
+            ],
+            "pago": true
+        },
+        {
+            "cc_cliente": 1096802787,
+            "pedido": [
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Waterproof",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                }
+            ],
+            "pago": true
+        },
+        {
+            "cc_cliente": 1096802787,
+            "pedido": [
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Waterproof",
+                    "Precio": "28000"
+                },
+                {
+                    "categoria": "mascaras",
+                    "Producto": "Mascara de Pestanas",
+                    "Nombre": "Mascara de Pestanas Alargadora",
+                    "Precio": "25000"
+                }
+            ],
+            "pago": true
+        },
+        {
+            "cc_cliente": 105847,
+            "pedido": [
                 {
                     "categoria": "mascaras",
                     "Producto": "Mascara de Pestanas",
