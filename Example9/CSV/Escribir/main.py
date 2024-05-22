@@ -6,7 +6,7 @@ myData =[
     ["Carlos","De la Torre","2"]
 ]
 
-myFile = open("personas.scv","w",newline='')
+myFile = open("personas.csv","w",newline='')
 
 with myFile:
     escritor = writer(myFile)

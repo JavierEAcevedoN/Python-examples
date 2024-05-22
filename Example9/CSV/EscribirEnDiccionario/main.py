@@ -7,7 +7,7 @@ personas = [
 ]
 nombres_columnas = ["nombre","apellido","edad"]
 
-with open("personas.scv",mode="w", newline="") as archivo_csv:
+with open("personas.csv",mode="w", newline="") as archivo_csv:
     escritor = DictWriter(archivo_csv, fieldnames=nombres_columnas)
     escritor.writeheader()
     for persona in personas:
